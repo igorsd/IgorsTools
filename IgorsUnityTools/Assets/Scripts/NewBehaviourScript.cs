@@ -8,12 +8,6 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        "Hello".WithColor(Color.cyan);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log("Hello ".WithColor(Color.cyan) + "World!".WithColor(Color.yellow));
     }
 }

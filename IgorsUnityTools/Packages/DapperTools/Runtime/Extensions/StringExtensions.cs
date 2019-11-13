@@ -7,7 +7,7 @@ namespace DapperDino.Examples
     public static class StringExtensions {
         public static string WithColor(this string val, Color clr)
         {
-            return $"<color={clr}>{val}</color>";
+            return $"<color=#{ColorUtility.ToHtmlStringRGBA(clr)}>{val}</color>";
         }
     }
 }

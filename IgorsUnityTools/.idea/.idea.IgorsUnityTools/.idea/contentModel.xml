@@ -17,6 +17,514 @@
       <e p="IgorsUnityTools.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive">
+        <e p="com.unity.collab-proxy" t="Include">
+          <e p="Editor" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="Collab" t="Include">
+              <e p="Bootstrap.cs" t="Include" />
+              <e p="CollabAnalytics.cs" t="Include" />
+              <e p="CollabHistoryWindow.cs" t="Include" />
+              <e p="CollabToolbarButton.cs" t="Include" />
+              <e p="CollabToolbarWindow.cs" t="Include" />
+              <e p="Presenters" t="Include">
+                <e p="CollabHistoryPresenter.cs" t="Include" />
+              </e>
+              <e p="Views" t="Include">
+                <e p="BuildStatusButton.cs" t="Include" />
+                <e p="CollabHistoryDropDown.cs" t="Include" />
+                <e p="CollabHistoryDropDownItem.cs" t="Include" />
+                <e p="CollabHistoryItem.cs" t="Include" />
+                <e p="CollabHistoryItemFactory.cs" t="Include" />
+                <e p="CollabHistoryRevisionLine.cs" t="Include" />
+                <e p="HistoryProgressSpinner.cs" t="Include" />
+                <e p="ICollabHistoryItemFactory.cs" t="Include" />
+                <e p="PagedListView.cs" t="Include" />
+                <e p="StatusView.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Resources" t="Include">
+              <e p="Styles" t="Include">
+                <e p="CollabHistoryCommon.uss" t="Include" />
+                <e p="CollabHistoryDark.uss" t="Include" />
+                <e p="CollabHistoryLight.uss" t="Include" />
+              </e>
+            </e>
+            <e p="Unity.CollabProxy.Editor.asmdef" t="Include" />
+          </e>
+          <e p="Tests" t="Include">
+            <e p="Editor" t="Include">
+              <e p="HistoryTests.cs" t="Include" />
+              <e p="Unity.CollabProxy.EditorTests.asmdef" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="com.unity.ide.rider" t="Include">
+          <e p="Rider" t="Include">
+            <e p="Editor" t="Include">
+              <e p="com.unity.ide.rider.asmdef" t="Include" />
+              <e p="Discovery.cs" t="Include" />
+              <e p="EditorPluginInterop.cs" t="Include" />
+              <e p="LoggingLevel.cs" t="Include" />
+              <e p="PluginSettings.cs" t="Include" />
+              <e p="ProjectGeneration.cs" t="Include" />
+              <e p="RiderInitializer.cs" t="Include" />
+              <e p="RiderScriptEditor.cs" t="Include" />
+              <e p="RiderScriptEditorData.cs" t="Include" />
+              <e p="Util" t="Include">
+                <e p="FileSystemUtil.cs" t="Include" />
+                <e p="LibcNativeInterop.cs" t="Include" />
+                <e p="UnityUtils.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="com.unity.ide.vscode" t="Include">
+          <e p="Editor" t="Include">
+            <e p="ProjectGeneration.cs" t="Include" />
+            <e p="Unity.com.unity.vscode.Editor.asmdef" t="Include" />
+            <e p="Utility.cs" t="Include" />
+            <e p="VSCodeDiscovery.cs" t="Include" />
+            <e p="VSCodeScriptEditor.cs" t="Include" />
+          </e>
+        </e>
+        <e p="com.unity.test-framework" t="Include">
+          <e p="UnityEditor.TestRunner" t="Include">
+            <e p="Api" t="Include">
+              <e p="CallbacksDelegator.cs" t="Include" />
+              <e p="CallbacksDelegatorListener.cs" t="Include" />
+              <e p="CallbacksHolder.cs" t="Include" />
+              <e p="ExecutionSettings.cs" t="Include" />
+              <e p="Filter.cs" t="Include" />
+              <e p="ICallbacks.cs" t="Include" />
+              <e p="ICallbacksHolder.cs" t="Include" />
+              <e p="IErrorCallbacks.cs" t="Include" />
+              <e p="ITestAdaptor.cs" t="Include" />
+              <e p="ITestAdaptorFactory.cs" t="Include" />
+              <e p="ITestLauncherFactory.cs" t="Include" />
+              <e p="ITestResultAdaptor.cs" t="Include" />
+              <e p="ITestRunnerApi.cs" t="Include" />
+              <e p="ITestRunSettings.cs" t="Include" />
+              <e p="ITestTreeRebuildCallbacks.cs" t="Include" />
+              <e p="RunState.cs" t="Include" />
+              <e p="TestAdaptor.cs" t="Include" />
+              <e p="TestAdaptorFactory.cs" t="Include" />
+              <e p="TestLauncherFactory.cs" t="Include" />
+              <e p="TestMode.cs" t="Include" />
+              <e p="TestResultAdaptor.cs" t="Include" />
+              <e p="TestRunData.cs" t="Include" />
+              <e p="TestRunnerApi.cs" t="Include" />
+              <e p="TestStatus.cs" t="Include" />
+            </e>
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="CommandLineParser" t="Include">
+              <e p="CommandLineOption.cs" t="Include" />
+              <e p="CommandLineOptionSet.cs" t="Include" />
+              <e p="ICommandLineOption.cs" t="Include" />
+            </e>
+            <e p="CommandLineTest" t="Include">
+              <e p="Executer.cs" t="Include" />
+              <e p="ExecutionSettings.cs" t="Include" />
+              <e p="ExitCallbacks.cs" t="Include" />
+              <e p="ISettingsBuilder.cs" t="Include" />
+              <e p="LogSavingCallbacks.cs" t="Include" />
+              <e p="LogWriter.cs" t="Include" />
+              <e p="ResultsSavingCallbacks.cs" t="Include" />
+              <e p="ResultsWriter.cs" t="Include" />
+              <e p="RunData.cs" t="Include" />
+              <e p="RunSettings.cs" t="Include" />
+              <e p="SettingsBuilder.cs" t="Include" />
+              <e p="SetupException.cs" t="Include" />
+              <e p="TestStarter.cs" t="Include" />
+            </e>
+            <e p="GUI" t="Include">
+              <e p="AssetsDatabaseHelper.cs" t="Include" />
+              <e p="GuiHelper.cs" t="Include" />
+              <e p="IAssetsDatabaseHelper.cs" t="Include" />
+              <e p="IGuiHelper.cs" t="Include" />
+              <e p="TestListBuilder" t="Include">
+                <e p="RenderingOptions.cs" t="Include" />
+                <e p="ResultSummarizer.cs" t="Include" />
+                <e p="TestFilterSettings.cs" t="Include" />
+                <e p="TestTreeViewBuilder.cs" t="Include" />
+              </e>
+              <e p="TestListGuiHelper.cs" t="Include" />
+              <e p="TestListTreeView" t="Include">
+                <e p="Icons.cs" t="Include" />
+                <e p="TestListTreeViewDataSource.cs" t="Include" />
+                <e p="TestListTreeViewGUI.cs" t="Include" />
+                <e p="TestTreeViewItem.cs" t="Include" />
+              </e>
+              <e p="TestRunnerResult.cs" t="Include" />
+              <e p="TestRunnerUIFilter.cs" t="Include" />
+              <e p="Views" t="Include">
+                <e p="EditModeTestListGUI.cs" t="Include" />
+                <e p="PlayModeTestListGUI.cs" t="Include" />
+                <e p="TestListGUIBase.cs" t="Include" />
+              </e>
+            </e>
+            <e p="NUnitExtension" t="Include">
+              <e p="Attributes" t="Include">
+                <e p="AssetPipelineIgnore.cs" t="Include" />
+                <e p="ITestPlayerBuildModifier.cs" t="Include" />
+                <e p="TestPlayerBuildModifierAttribute.cs" t="Include" />
+              </e>
+              <e p="TestRunnerStateSerializer.cs" t="Include" />
+            </e>
+            <e p="RequireApiProfileAttribute.cs" t="Include" />
+            <e p="RequirePlatformSupportAttribute.cs" t="Include" />
+            <e p="TestBuildAssemblyFilter.cs" t="Include" />
+            <e p="TestLaunchers" t="Include">
+              <e p="AttributeFinderBase.cs" t="Include" />
+              <e p="EditModeLauncher.cs" t="Include" />
+              <e p="EditModeLauncherContextSettings.cs" t="Include" />
+              <e p="PlatformSetup" t="Include">
+                <e p="AndroidPlatformSetup.cs" t="Include" />
+                <e p="ApplePlatformSetup.cs" t="Include" />
+                <e p="IPlatformSetup.cs" t="Include" />
+                <e p="LuminPlatformSetup.cs" t="Include" />
+                <e p="PlatformSpecificSetup.cs" t="Include" />
+                <e p="SwitchPlatformSetup.cs" t="Include" />
+                <e p="UwpPlatformSetup.cs" t="Include" />
+                <e p="XboxOnePlatformSetup.cs" t="Include" />
+              </e>
+              <e p="PlayerLauncher.cs" t="Include" />
+              <e p="PlayerLauncherBuildOptions.cs" t="Include" />
+              <e p="PlayerLauncherContextSettings.cs" t="Include" />
+              <e p="PlaymodeLauncher.cs" t="Include" />
+              <e p="PostbuildCleanupAttributeFinder.cs" t="Include" />
+              <e p="PrebuildSetupAttributeFinder.cs" t="Include" />
+              <e p="RemotePlayerLogController.cs" t="Include" />
+              <e p="RemotePlayerTestController.cs" t="Include" />
+              <e p="RemoteTestResultReciever.cs" t="Include" />
+              <e p="RuntimeTestLauncherBase.cs" t="Include" />
+              <e p="TestLauncherBase.cs" t="Include" />
+            </e>
+            <e p="TestResultSerializer.cs" t="Include" />
+            <e p="TestRunner" t="Include">
+              <e p="Callbacks" t="Include">
+                <e p="EditModeRunnerCallback.cs" t="Include" />
+                <e p="RerunCallback.cs" t="Include" />
+                <e p="RerunCallbackData.cs" t="Include" />
+                <e p="RerunCallbackInitializer.cs" t="Include" />
+                <e p="TestRunnerCallback.cs" t="Include" />
+                <e p="WindowResultUpdater.cs" t="Include" />
+              </e>
+              <e p="EditModePCHelper.cs" t="Include" />
+              <e p="EditModeRunner.cs" t="Include" />
+              <e p="EditmodeWorkItemFactory.cs" t="Include" />
+              <e p="EditorEnumeratorTestWorkItem.cs" t="Include" />
+              <e p="EnumeratorStepHelper.cs" t="Include" />
+              <e p="Messages" t="Include">
+                <e p="EnterPlayMode.cs" t="Include" />
+                <e p="ExitPlayMode.cs" t="Include" />
+                <e p="RecompileScripts.cs" t="Include" />
+                <e p="WaitForDomainReload.cs" t="Include" />
+              </e>
+              <e p="TestFileCleanupVerifier.cs" t="Include" />
+              <e p="Utils" t="Include">
+                <e p="CachingTestListProvider.cs" t="Include" />
+                <e p="EditorAssembliesProxy.cs" t="Include" />
+                <e p="EditorAssemblyWrapper.cs" t="Include" />
+                <e p="EditorCompilationInterfaceProxy.cs" t="Include" />
+                <e p="EditorLoadedTestAssemblyProvider.cs" t="Include" />
+                <e p="IEditorAssembliesProxy.cs" t="Include" />
+                <e p="IEditorCompilationInterfaceProxy.cs" t="Include" />
+                <e p="ITestListCache.cs" t="Include" />
+                <e p="ITestListCacheData.cs" t="Include" />
+                <e p="ITestListProvider.cs" t="Include" />
+                <e p="TestListCache.cs" t="Include" />
+                <e p="TestListCacheData.cs" t="Include" />
+                <e p="TestListJob.cs" t="Include" />
+                <e p="TestListProvider.cs" t="Include" />
+              </e>
+            </e>
+            <e p="TestRunnerWindow.cs" t="Include" />
+            <e p="TestRunnerWindowSettings.cs" t="Include" />
+            <e p="TestSettings" t="Include">
+              <e p="ITestSettings.cs" t="Include" />
+              <e p="ITestSettingsDeserializer.cs" t="Include" />
+              <e p="TestSettings.cs" t="Include" />
+              <e p="TestSettingsDeserializer.cs" t="Include" />
+            </e>
+            <e p="UnityEditor.TestRunner.asmdef" t="Include" />
+            <e p="UnityTestProtocol" t="Include">
+              <e p="AssemblyCompilationErrorsMessage.cs" t="Include" />
+              <e p="ITestRunnerApiMapper.cs" t="Include" />
+              <e p="IUtpLogger.cs" t="Include" />
+              <e p="IUtpMessageReporter.cs" t="Include" />
+              <e p="Message.cs" t="Include" />
+              <e p="TestFinishedMessage.cs" t="Include" />
+              <e p="TestPlanMessage.cs" t="Include" />
+              <e p="TestRunnerApiMapper.cs" t="Include" />
+              <e p="TestStartedMessage.cs" t="Include" />
+              <e p="TestState.cs" t="Include" />
+              <e p="UnityTestProtocolListener.cs" t="Include" />
+              <e p="UnityTestProtocolStarter.cs" t="Include" />
+              <e p="UtpDebuglogger.cs" t="Include" />
+              <e p="UtpMessageReporter.cs" t="Include" />
+            </e>
+          </e>
+          <e p="UnityEngine.TestRunner" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="Assertions" t="Include">
+              <e p="AllocatingGCMemoryConstraint.cs" t="Include" />
+              <e p="ConstraintsExtensions.cs" t="Include" />
+              <e p="InvalidSignatureException.cs" t="Include" />
+              <e p="Is.cs" t="Include" />
+              <e p="LogAssert.cs" t="Include" />
+              <e p="LogScope" t="Include">
+                <e p="ILogScope.cs" t="Include" />
+                <e p="LogEvent.cs" t="Include" />
+                <e p="LogMatch.cs" t="Include" />
+                <e p="LogScope.cs" t="Include" />
+              </e>
+              <e p="UnexpectedLogMessageException.cs" t="Include" />
+              <e p="UnhandledLogMessageException.cs" t="Include" />
+              <e p="UnityTestTimeoutException.cs" t="Include" />
+            </e>
+            <e p="NUnitExtensions" t="Include">
+              <e p="ActionDelegator.cs" t="Include" />
+              <e p="Attributes" t="Include">
+                <e p="ConditionalIgnoreAttribute.cs" t="Include" />
+                <e p="TestEnumerator.cs" t="Include" />
+                <e p="TestMustExpectAllLogsAttribute.cs" t="Include" />
+                <e p="UnityCombinatorialStrategy.cs" t="Include" />
+                <e p="UnityPlatformAttribute.cs" t="Include" />
+                <e p="UnitySetUpAttribute.cs" t="Include" />
+                <e p="UnityTearDownAttribute.cs" t="Include" />
+                <e p="UnityTestAttribute.cs" t="Include" />
+              </e>
+              <e p="BaseDelegator.cs" t="Include" />
+              <e p="Commands" t="Include">
+                <e p="BeforeAfterTestCommandBase.cs" t="Include" />
+                <e p="BeforeAfterTestCommandState.cs" t="Include" />
+                <e p="EnumerableApplyChangesToContextCommand.cs" t="Include" />
+                <e p="EnumerableRepeatedTestCommand.cs" t="Include" />
+                <e p="EnumerableRetryTestCommand.cs" t="Include" />
+                <e p="EnumerableSetUpTearDownCommand.cs" t="Include" />
+                <e p="EnumerableTestMethodCommand.cs" t="Include" />
+                <e p="ImmediateEnumerableCommand.cs" t="Include" />
+                <e p="OuterUnityTestActionCommand.cs" t="Include" />
+                <e p="SetUpTearDownCommand.cs" t="Include" />
+                <e p="TestActionCommand.cs" t="Include" />
+                <e p="TestCommandPcHelper.cs" t="Include" />
+              </e>
+              <e p="ConstructDelegator.cs" t="Include" />
+              <e p="Filters" t="Include">
+                <e p="AssemblyNameFilter.cs" t="Include" />
+                <e p="CategoryFilterExtended.cs" t="Include" />
+              </e>
+              <e p="IStateSerializer.cs" t="Include" />
+              <e p="Runner" t="Include">
+                <e p="CompositeWorkItem.cs" t="Include" />
+                <e p="CoroutineTestWorkItem.cs" t="Include" />
+                <e p="DefaultTestWorkItem.cs" t="Include" />
+                <e p="FailCommand.cs" t="Include" />
+                <e p="IEnumerableTestMethodCommand.cs" t="Include" />
+                <e p="PlaymodeWorkItemFactory.cs" t="Include" />
+                <e p="RestoreTestContextAfterDomainReload.cs" t="Include" />
+                <e p="TestCommandBuilder.cs" t="Include" />
+                <e p="UnityLogCheckDelegatingCommand.cs" t="Include" />
+                <e p="UnityTestAssemblyRunner.cs" t="Include" />
+                <e p="UnityTestExecutionContext.cs" t="Include" />
+                <e p="UnityWorkItem.cs" t="Include" />
+                <e p="UnityWorkItemDataHolder.cs" t="Include" />
+                <e p="WorkItemFactory.cs" t="Include" />
+              </e>
+              <e p="TestExtensions.cs" t="Include" />
+              <e p="TestResultExtensions.cs" t="Include" />
+              <e p="UnityTestAssemblyBuilder.cs" t="Include" />
+            </e>
+            <e p="TestRunner" t="Include">
+              <e p="Callbacks" t="Include">
+                <e p="PlayModeRunnerCallback.cs" t="Include" />
+                <e p="RemoteTestResultSender.cs" t="Include" />
+                <e p="TestResultRenderer.cs" t="Include" />
+                <e p="TestResultRendererCallback.cs" t="Include" />
+              </e>
+              <e p="ITestRunnerListener.cs" t="Include" />
+              <e p="Messages" t="Include">
+                <e p="IEditModeTestYieldInstruction.cs" t="Include" />
+              </e>
+              <e p="PlaymodeTestsController.cs" t="Include" />
+              <e p="PlaymodeTestsControllerSettings.cs" t="Include" />
+              <e p="RemoteHelpers" t="Include">
+                <e p="IRemoteTestResultDataFactory.cs" t="Include" />
+                <e p="PlayerConnectionMessageIds.cs" t="Include" />
+                <e p="RemoteTestData.cs" t="Include" />
+                <e p="RemoteTestResultData.cs" t="Include" />
+                <e p="RemoteTestResultDataFactory.cs" t="Include" />
+                <e p="RemoteTestResultDataWithTestData.cs" t="Include" />
+              </e>
+              <e p="SynchronousFilter.cs" t="Include" />
+              <e p="TestEnumeratorWrapper.cs" t="Include" />
+              <e p="TestListenerWrapper.cs" t="Include" />
+              <e p="TestPlatform.cs" t="Include" />
+              <e p="TestRunnerFilter.cs" t="Include" />
+            </e>
+            <e p="UnityEngine.TestRunner.asmdef" t="Include" />
+            <e p="Utils" t="Include">
+              <e p="AssemblyProvider" t="Include">
+                <e p="AssemblyLoadProxy.cs" t="Include" />
+                <e p="AssemblyWrapper.cs" t="Include" />
+                <e p="IAssemblyLoadProxy.cs" t="Include" />
+                <e p="IAssemblyWrapper.cs" t="Include" />
+                <e p="IScriptingRuntimeProxy.cs" t="Include" />
+                <e p="ITestAssemblyProvider.cs" t="Include" />
+                <e p="PlayerTestAssemblyProvider.cs" t="Include" />
+                <e p="ScriptingRuntimeProxy.cs" t="Include" />
+              </e>
+              <e p="AttributeHelper.cs" t="Include" />
+              <e p="ColorEqualityComparer.cs" t="Include" />
+              <e p="CoroutineRunner.cs" t="Include" />
+              <e p="FloatEqualityComparer.cs" t="Include" />
+              <e p="IOuterUnityTestAction.cs" t="Include" />
+              <e p="IPostBuildCleanup.cs" t="Include" />
+              <e p="IPrebuildSceneSetup.cs" t="Include" />
+              <e p="ITestRunCallback.cs" t="Include" />
+              <e p="MonoBehaviourTest" t="Include">
+                <e p="IMonoBehaviourTest.cs" t="Include" />
+                <e p="MonoBehaviourTest.cs" t="Include" />
+              </e>
+              <e p="PostBuildCleanupAttribute.cs" t="Include" />
+              <e p="PrebuildSceneSetupAttribute.cs" t="Include" />
+              <e p="QuaternionEqualityComparer.cs" t="Include" />
+              <e p="StacktraceFilter.cs" t="Include" />
+              <e p="TestRunCallbackAttribute.cs" t="Include" />
+              <e p="TestRunCallbackListener.cs" t="Include" />
+              <e p="Utils.cs" t="Include" />
+              <e p="Vector2ComparerWithEqualsOperator.cs" t="Include" />
+              <e p="Vector2EqualityComparer.cs" t="Include" />
+              <e p="Vector3ComparerWithEqualsOperator.cs" t="Include" />
+              <e p="Vector3EqualityComparer.cs" t="Include" />
+              <e p="Vector4ComparerWithEqualsOperator.cs" t="Include" />
+              <e p="Vector4EqualityComparer.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="com.unity.textmeshpro" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="DropdownOptionListDrawer.cs" t="Include" />
+              <e p="GlyphInfoDrawer.cs" t="Include" />
+              <e p="GlyphMetricsPropertyDrawer.cs" t="Include" />
+              <e p="GlyphRectPropertyDrawer.cs" t="Include" />
+              <e p="TMP_BaseEditorPanel.cs" t="Include" />
+              <e p="TMP_BaseShaderGUI.cs" t="Include" />
+              <e p="TMP_BitmapShaderGUI.cs" t="Include" />
+              <e p="TMP_CharacterPropertyDrawer.cs" t="Include" />
+              <e p="TMP_ColorGradientAssetMenu.cs" t="Include" />
+              <e p="TMP_ColorGradientEditor.cs" t="Include" />
+              <e p="TMP_DropdownEditor.cs" t="Include" />
+              <e p="TMP_EditorCoroutine.cs" t="Include" />
+              <e p="TMP_EditorPanel.cs" t="Include" />
+              <e p="TMP_EditorUtility.cs" t="Include" />
+              <e p="TMP_FontAsset_CreationMenu.cs" t="Include" />
+              <e p="TMP_FontAssetEditor.cs" t="Include" />
+              <e p="TMP_GlyphPairAdjustmentRecordPropertyDrawer.cs" t="Include" />
+              <e p="TMP_GlyphPropertyDrawer.cs" t="Include" />
+              <e p="TMP_InputFieldEditor.cs" t="Include" />
+              <e p="TMP_MeshRendererEditor.cs" t="Include" />
+              <e p="TMP_PackageUtilities.cs" t="Include" />
+              <e p="TMP_PostBuildProcessHandler.cs" t="Include" />
+              <e p="TMP_ProjectTextSettings.cs" t="Include" />
+              <e p="TMP_ResourcesLoader.cs" t="Include" />
+              <e p="TMP_SDFShaderGUI.cs" t="Include" />
+              <e p="TMP_SerializedPropertyHolder.cs" t="Include" />
+              <e p="TMP_SettingsEditor.cs" t="Include" />
+              <e p="TMP_SpriteAssetEditor.cs" t="Include" />
+              <e p="TMP_SpriteAssetImporter.cs" t="Include" />
+              <e p="TMP_SpriteAssetMenu.cs" t="Include" />
+              <e p="TMP_SpriteCharacterPropertyDrawer.cs" t="Include" />
+              <e p="TMP_SpriteGlyphPropertyDrawer.cs" t="Include" />
+              <e p="TMP_StyleAssetMenu.cs" t="Include" />
+              <e p="TMP_StyleSheetEditor.cs" t="Include" />
+              <e p="TMP_SubMesh_Editor.cs" t="Include" />
+              <e p="TMP_SubMeshUI_Editor.cs" t="Include" />
+              <e p="TMP_TextAlignmentDrawer.cs" t="Include" />
+              <e p="TMP_UiEditorPanel.cs" t="Include" />
+              <e p="TMP_UIStyleManager.cs" t="Include" />
+              <e p="TMPro_ContextMenus.cs" t="Include" />
+              <e p="TMPro_CreateObjectMenu.cs" t="Include" />
+              <e p="TMPro_EditorShaderUtilities.cs" t="Include" />
+              <e p="TMPro_FontAssetCreatorWindow.cs" t="Include" />
+              <e p="TMPro_FontPlugin.cs" t="Include" />
+              <e p="TMPro_SortingLayerHelper.cs" t="Include" />
+              <e p="TMPro_TextContainerEditor.cs" t="Include" />
+              <e p="TMPro_TexturePostProcessor.cs" t="Include" />
+              <e p="Unity.TextMeshPro.Editor.asmdef" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="AssemblyInfo.cs.cs" t="Include" />
+              <e p="FastAction.cs" t="Include" />
+              <e p="MaterialReferenceManager.cs" t="Include" />
+              <e p="TextContainer.cs" t="Include" />
+              <e p="TextMeshPro.cs" t="Include" />
+              <e p="TextMeshProUGUI.cs" t="Include" />
+              <e p="TMP_Asset.cs" t="Include" />
+              <e p="TMP_Character.cs" t="Include" />
+              <e p="TMP_CharacterInfo.cs" t="Include" />
+              <e p="TMP_ColorGradient.cs" t="Include" />
+              <e p="TMP_CoroutineTween.cs" t="Include" />
+              <e p="TMP_DefaultControls.cs" t="Include" />
+              <e p="TMP_Dropdown.cs" t="Include" />
+              <e p="TMP_EditorResourceManager.cs" t="Include" />
+              <e p="TMP_FontAsset.cs" t="Include" />
+              <e p="TMP_FontAssetCommon.cs" t="Include" />
+              <e p="TMP_FontAssetUtilities.cs" t="Include" />
+              <e p="TMP_FontFeaturesCommon.cs" t="Include" />
+              <e p="TMP_FontFeatureTable.cs" t="Include" />
+              <e p="TMP_InputField.cs" t="Include" />
+              <e p="TMP_InputValidator.cs" t="Include" />
+              <e p="TMP_LineInfo.cs" t="Include" />
+              <e p="TMP_ListPool.cs" t="Include" />
+              <e p="TMP_MaterialManager.cs" t="Include" />
+              <e p="TMP_MeshInfo.cs" t="Include" />
+              <e p="TMP_ObjectPool.cs" t="Include" />
+              <e p="TMP_PackageResourceImporter.cs" t="Include" />
+              <e p="TMP_RichTextTagsCommon.cs" t="Include" />
+              <e p="TMP_RichTextTagStack.cs" t="Include" />
+              <e p="TMP_ScrollbarEventHandler.cs" t="Include" />
+              <e p="TMP_SelectionCaret.cs" t="Include" />
+              <e p="TMP_Settings.cs" t="Include" />
+              <e p="TMP_ShaderUtilities.cs" t="Include" />
+              <e p="TMP_Sprite.cs" t="Include" />
+              <e p="TMP_SpriteAnimator.cs" t="Include" />
+              <e p="TMP_SpriteAsset.cs" t="Include" />
+              <e p="TMP_SpriteAssetImportFormats.cs" t="Include" />
+              <e p="TMP_SpriteCharacter.cs" t="Include" />
+              <e p="TMP_SpriteGlyph.cs" t="Include" />
+              <e p="TMP_Style.cs" t="Include" />
+              <e p="TMP_StyleSheet.cs" t="Include" />
+              <e p="TMP_SubMesh.cs" t="Include" />
+              <e p="TMP_SubMeshUI.cs" t="Include" />
+              <e p="TMP_Text.cs" t="Include" />
+              <e p="TMP_TextElement.cs" t="Include" />
+              <e p="TMP_TextElement_Legacy.cs" t="Include" />
+              <e p="TMP_TextInfo.cs" t="Include" />
+              <e p="TMP_TextParsingUtilities.cs" t="Include" />
+              <e p="TMP_TextUtilities.cs" t="Include" />
+              <e p="TMP_UpdateManager.cs" t="Include" />
+              <e p="TMP_UpdateRegistery.cs" t="Include" />
+              <e p="TMPro_EventManager.cs" t="Include" />
+              <e p="TMPro_ExtensionMethods.cs" t="Include" />
+              <e p="TMPro_MeshUtilities.cs" t="Include" />
+              <e p="TMPro_Private.cs" t="Include" />
+              <e p="TMPro_UGUI_Private.cs" t="Include" />
+              <e p="Unity.TextMeshPro.asmdef" t="Include" />
+            </e>
+          </e>
+          <e p="Tests" t="Include">
+            <e p="Editor" t="Include">
+              <e p="TMP_EditorTests.cs" t="Include" />
+              <e p="Unity.TextMeshPro.Editor.Tests.asmdef" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="TMP_RuntimeTests.cs" t="Include" />
+              <e p="Unity.TextMeshPro.Tests.asmdef" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="DapperTools" t="Include">
           <e p="Runtime" t="Include">
             <e p="com.dapperdino.dapper-tools.asmdef" t="Include" />
@@ -27,6 +535,16 @@
         </e>
       </e>
       <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Unity.CollabProxy.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.CollabProxy.EditorTests.csproj" t="IncludeRecursive" />
+      <e p="Unity.Rider.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.TextMeshPro.csproj" t="IncludeRecursive" />
+      <e p="Unity.TextMeshPro.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.TextMeshPro.Editor.Tests.csproj" t="IncludeRecursive" />
+      <e p="Unity.TextMeshPro.Tests.csproj" t="IncludeRecursive" />
+      <e p="Unity.VSCode.Editor.csproj" t="IncludeRecursive" />
+      <e p="UnityEditor.TestRunner.csproj" t="IncludeRecursive" />
+      <e p="UnityEngine.TestRunner.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>
